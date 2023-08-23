@@ -2,9 +2,9 @@
 
 `Analise e Desenvolvimento de Sistemas`
 
-`Desenvolvimento de Aplicação Web Front-End`
+`Desenvolvimento de uma Aplicação Interativa`
 
-`Eixo 1`
+`Eixo 2`
 
 Nossa aplicação tem o intuito de auxiliar no dia a dia do nosso usuário para que possa fazer um acompanhamento da sua rotina, visando a saúde.
 
