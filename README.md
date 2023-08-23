@@ -13,7 +13,6 @@ Nossa aplicação tem o intuito de auxiliar no dia a dia do nosso usuário para 
 * Caique Romero Magalhaes
 * César Pereira dos Santos Filho
 * Davidson de Paiva Marques
-* Gabriel Rodrigues Henrique Marcio
 * Márcio Emanuel Batista de Pádua
 * William Ribeiro Amaral
 
