@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# HealthTrack
 
-`CURSO`
+`Analise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Eixo 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nossa aplicação tem o intuito de auxiliar no dia a dia do nosso usuário para que possa fazer um acompanhamento da sua rotina, visando a saúde.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Caique Romero Magalhaes
+* César Pereira dos Santos Filho
+* Davidson de Paiva Marques
+* Gabriel Rodrigues Henrique Marcio
+* Márcio Emanuel Batista de Pádua
+* William Ribeiro Amaral
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon de Alencar
 
 ## Instruções de utilização
 
