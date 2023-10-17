@@ -1,306 +1,198 @@
-/* ----- INCLUSÃO DAS FONTES ----- */
-@font-face {
-    font-family: 'Jost-Light';
-    src: url('../docs/fonts/Jost-Light.ttf') format('truetype');
+/* ------ Corpo da pagina ------*/
+body{
+    margin: 0;
 }
 
-@font-face {
-    font-family: 'jostregular';
-    src: url('../docs/fonts/jostregular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'jostregularss';
-    src: url('../docs/fonts/jostregularss.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Monda-Bold';
-    src: url('../docs/fonts/Monda-Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Monda-Regular';
-    src: url('../docs/fonts/Monda-Regular.ttf') format('truetype');
-}
-
-/* ----- ALTERAÇÃO BACKGROUND DA PAGINA DE LOGIN ----- */
-html {
+.Containerright{
+    background-image: url(../../docs/img-eixo2/background2.jpg);
+    background-size: cover;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 100px;
+}
+.right-width{
+    display: flex;
 }
 
-body {
-    background-image: url('../docs/img/background-menor.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 0;
-    margin-top: 0;
+/* ------ Layout lado Esquerdo ------*/
+
+.left-box{
+    width: 30vw;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    padding: 30px 35px;
+    background:rgb(120, 168, 185);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.left-box img{
+    width: 90%;
+}
+.imagem{
+    display: block;
+    margin: auto;
+    padding: 0px;
+    
 }
 
-/* -----LAYOUT DO FORMULÁRIO ----- */
-.layout {
-    height: 600px;
-    width: 850px;
-    background-color: white;
-    margin: 11% auto;
-    position: relative;
-    border-radius: 10px;
-}
+/* ------ Referencias dos Links ------*/
+.textfild{
+   width: 100%;
+   display: flex;
+   text-align: start;
+   flex-direction: column;
+   color: white;
+   padding: 10px 1px;
 
-.layout .gradiente {
-    background: linear-gradient(164.22deg, #f05348 10%, #ae1005 80%);
-    width: 350px;
-    height: 100%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
 
-/* TÍTULOS DE FORMULÁRIO*/
-.cadastro-nome .titulo-nome {
-    font-family: 'Monda-Regular';
-    color: #FF5454;
-    position: absolute;
-    margin-top: -60%;
-    margin-left: 45.6%;
+}
+.textfild .login{
+    display: block;
+    width: 100%;
+    padding: 1px;
     font-size: 20px;
+    border-bottom: 3px solid white;
+    justify-content: start;
 }
 
-.cadastro-usuario .titulo-usuario {
-    font-family: 'Monda-Regular';
-    color: #FF5454;
-    position: absolute;
-    margin-top: -50%;
-    margin-left: 45.6%;
-    font-size: 20px;
+.lembrar {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(37, 83, 107, 1);
+}
+.lembrar label{
+    margin-right: auto;
+}
+.lembrar a{
+    color: rgba(37, 83, 107, 1);
+    margin-left: auto;
 }
 
-.cadastro-data .titulo-data {
-    font-family: 'Monda-Regular';
-    color: #FF5454;
-    position: absolute;
-    margin-top: -40%;
-    margin-left: 45.6%;
-    font-size: 20px;
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
 }
 
-.cadastro-senha .titulo-senha {
-    font-family: 'Monda-Regular';
-    color: #FF5454;
-    position: absolute;
-    margin-top: -30%;
-    margin-left: 45.6%;
-    font-size: 20px;
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: rgba(37, 83, 107, 1);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
 }
 
-/* ----- FORMULÁRIO DE CADASTRO ----- */
-
-/* ----- NOME ----- */
-.cadastro-nome .nome {
-    color: #FF5454;
-    position: absolute;
-    margin-top: -53%;
-    margin-left: 45.6%;
+.button-81:hover {
+  background-color: rgba(37, 83, 107, 1);
+  color: #fff;
 }
 
-.cadastro-nome .nome input {
-    width: 250%;
-    padding: 5% 0;
-    outline: none;
-    border: 0;
-    background: transparent;
-    border-bottom: 1px solid #ff545493;
-
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+.criar{
+    display: flex;
+    justify-content: center;
+}
+.criar a{
+    color: rgba(37, 83, 107, 1);
 }
 
-.cadastro-nome .nome label {
-    font-family: 'Monda-Regular';
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 9px 0;
-    color: #ff545493;
-    pointer-events: none;
+/* ------ Responsividades ------*/
+@media only screen and (max-width: 960px){
+    .Containerright{
+        background-image: url(./Imagens/background.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .right-width{
+        width: auto;
+        display: flex;
+        padding: 5px;
+    }
+    .left-box{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+   
 }
-
-.cadastro-nome .nome input:focus~label,
-.cadastro-nome .nome input:valid~label {
-    color: transparent;
+@media only screen and (max-width: 600px){
+    .Containerright{
+        background-image: url(./Imagens/background.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-width{
+        width: auto;
+        display: flex;
+        padding: 10px;
+    }
+    .left-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
-
-/* ----- usuario -----*/
-.cadastro-usuario .usuario {
-    color: #FF5454;
-    position: absolute;
-    margin-top: -43%;
-    margin-left: 45.6%;
-}
-
-.cadastro-usuario .usuario input {
-    width: 250%;
-    padding: 5% 0;
-    outline: none;
-    border: 0;
-    background: transparent;
-    border-bottom: 1px solid #ff545493;
-
-}
-
-.cadastro-usuario .usuario label {
-    font-family: 'Monda-Regular';
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 9px 0;
-    color: #ff545493;
-    pointer-events: none;
-}
-
-.cadastro-usuario .usuario input:focus~label,
-.cadastro-usuario .usuario input:valid~label {
-    color: transparent;
-}
-
-/* ----- DATA -----*/
-.cadastro-data .data {
-    color: #FF5454;
-    position: absolute;
-    margin-top: -33%;
-    margin-left: 45.6%;
-}
-
-.cadastro-data .data input {
-    width: 250%;
-    padding: 5% 0;
-    outline: none;
-    border: 0;
-    background: transparent;
-    border-bottom: 1px solid #ff545493;
-
-}
-
-.cadastro-data .data label {
-    font-family: 'Monda-Regular';
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 9px 0;
-    color: #ff545493;
-    pointer-events: none;
-}
-
-.cadastro-data .data input:focus~label,
-.cadastro-data .data input:valid~label {
-    color: transparent;
-}
-
-/*----- SENHA -----*/
-.cadastro-senha .senha {
-    color: #FF5454;
-    position: absolute;
-    margin-top: -22.5%;
-    margin-left: 45.6%;
-}
-
-.cadastro-senha .senha input {
-    width: 250%;
-    padding: 5% 0;
-    outline: none;
-    border: 0;
-    background: transparent;
-    border-bottom: 1px solid #ff545493;
-}
-
-.cadastro-senha .senha label {
-    font-family: 'Monda-Regular';
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 9px 0;
-    color: #ff545493;
-    pointer-events: none;
-}
-
-.cadastro-senha .senha input:focus~label,
-.cadastro-senha .senha input:valid~label {
-    color: transparent;
-}
-
-/* ----- BOTÃO ----- */
-.botao {
-    font-family: "Jost", "Times", ;
-    color: #fff;
-    background: linear-gradient(164.22deg, #F05348 0%, #AE1005 88.98%);
-    box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.25);
-    border: none;
-    padding: 5px;
-    border-radius: 3px;
-    display: inline-block;
-    margin-top: -13%;
-    margin-left: 65%;
-    width: 12%;
-    height: 6%;
-    position: absolute;
-    font-size: 15px;
-}
-
-.botao:hover {
-    background: linear-gradient(164.22deg, #AE1005 0%, #F05348 8888.98%);
-    cursor: pointer;
-}
-
-/*----- LOGO HEALTH TRACK -----*/
-.logo {
-    margin-top: -65%;
-    margin-left: 6.5%;
-    position: absolute;
-}
-
-.titulo-cadastre-se {
-    font-family: 'jostregularss';
-    color: white;
-    position: absolute;
-    margin-top: -30%;
-    margin-left: 3%;
-    letter-spacing: 4px;
-    font-size: 27px;
-}
-
-.titulo-cadastre-se span {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-}
-
-#msgErro {
-    text-align: center;
-    color: #FF0000;
-    background-color: #FFBBBB;
-    padding: 10px;
-    border-radius: 4px;
-    margin-top: -70px;
-    margin-bottom: 42px;
-    display: none;
-}
-
-#msgSuccess {
-    text-align: center;
-    color: #00BB00;
-    background-color: #BBFFBE;
-    padding: 10px;
-    border-radius: 4px;
-    margin-top: -70px;
-    margin-bottom: 42px;
-    display: none;
-}
-
-a:link {
-    color: white;
-}
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-    color: #000000;
+@media only screen and (min-width: 3000px){
+    .right-box{
+        width: 30vw;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+        padding: 30px 35px;
+        background:rgb(120, 168, 185);
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    .right-box img{
+        width: 90%;
+    }
+    .imagem{
+        display: block;
+        margin: auto;
+        padding: 0px;
+        
+    }
 }
