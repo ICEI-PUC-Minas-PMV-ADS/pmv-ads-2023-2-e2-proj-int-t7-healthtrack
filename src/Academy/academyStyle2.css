@@ -1,0 +1,48 @@
+@media screen and (min-width: 1900px) {
+    /*-----------Definição do escopo, para a utilização de porcentagens----------*/
+    html{
+        height: 100%;
+        width: 100%;
+    }
+    /*-----------display das paginas----------*/
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    /*-----------Definição do escopo da Tag body----------*/
+    body {
+        margin: 0px;
+        height: 100%;
+    }
+    /*-----------Correção da margem e demais definições do Header proposto----------*/
+    header {
+        margin-top: -16px;
+        background: #92b0bb;
+        height: 100%;
+        width: 5%;
+    }
+    /*-----------Definição das posições dos botões principais da aplicação----------*/
+    header .DivBotoes ul li img{
+        height: 50px;
+        margin: 20px;
+        margin-left: -30%;
+    }
+    /*-----------Definição do botão de "sair"----------*/
+    header .DivBotoes .sair li{
+        margin-top: 300px;
+        position: fixed;
+    }
+    /*-----------Remoção da estilização padrão do CSS/HTML----------*/
+    .DivBotoes ul {
+        list-style-type: none;
+        text-decoration: none;
+    }
+    /*-----------Estilização dos botões da aplicação----------*/
+    button {
+        all: unset;
+        cursor: pointer;
+        outline: revert;
+    }
+
+    
+}
