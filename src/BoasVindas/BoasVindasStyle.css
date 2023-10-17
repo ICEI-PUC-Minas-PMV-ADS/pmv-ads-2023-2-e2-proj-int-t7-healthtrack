@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Jost-Light';
+    src: url('../docs/fonts/Jost-Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'jostregular';
+    src: url('../docs/fonts/jostregular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'jostregularss';
+    src: url('../docs/fonts/jostregularss.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Monda-Bold';
+    src: url('../docs/fonts/Monda-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Monda-Regular';
+    src: url('../docs/fonts/Monda-Regular.ttf') format('truetype');
+  }
+
 /*-----------Definição do escopo, para a utilização de porcentagens----------*/
 html{
     height: 100%;
@@ -10,12 +35,13 @@ main {
 }
 /*-----------Definição do escopo da Tag body----------*/
 body {
+    display: flex;
     margin: 0px;
     height: 100%;
 }
 /*-----------Correção da margem e demais definições do Header proposto----------*/
 header {
-    margin-top: -16px;
+    display: flex;
     background: #92b0bb;
     height: 100%;
     width: 5%;
@@ -41,4 +67,35 @@ button {
     all: unset;
     cursor: pointer;
     outline: revert;
+  }
+  /*-----------Estilização do texto----------*/
+
+  .Introducao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11.5%;
+  }
+
+  .Introducao .BoasVindas{
+    margin: 0;
+    font-family: Monda-Regular, sans-serif;
+    font-size: 350%;
+    color:#3b7d8c;
+  }
+
+  .Introducao .SubBoasVindas{
+    margin: 0;
+    font-family: Monda-Regular, sans-serif;
+    font-size: 300%;
+    color:#3b7d8c;
+  }
+
+  .Introducao .texto{
+    margin: 0;
+    font-family: Monda-Regular, sans-serif;
+    font-size: 225%;
+    color:#1e405d;
+    text-align: center;
   }
