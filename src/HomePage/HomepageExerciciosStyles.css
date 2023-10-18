@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Jost-Light';
+  src: url('../docs/fonts/Jost-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jostregular';
+  src: url('../docs/fonts/jostregular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jostregularss';
+  src: url('../docs/fonts/jostregularss.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Monda-Bold';
+  src: url('../docs/fonts/Monda-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Monda-Regular';
+  src: url('../docs/fonts/Monda-Regular.ttf') format('truetype');
+}
+
+/*-----------Definição do escopo, para a utilização de porcentagens----------*/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*-----------display das paginas----------*/
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/*-----------Definição do escopo da Tag body----------*/
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  height: 100%;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*-----------Correção da margem e demais definições do Header proposto----------*/
+header {
+  display: flex;
+  background: #92b0bb;
+  height: 100%;
+  width: 5%;
+}
+
+/*-----------Definição das posições dos botões principais da aplicação----------*/
+header .DivBotoes ul li img {
+  height: 50px;
+  margin: 20px;
+  margin-left: -30%;
+}
+
+/*-----------Definição do botão de "sair"----------*/
+header .DivBotoes .sair li {
+  margin-top: 300px;
+  position: fixed;
+}
+
+/*-----------Remoção da estilização padrão do CSS/HTML----------*/
+.DivBotoes ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/*-----------Estilização dos botões da aplicação----------*/
+button {
+  all: unset;
+  cursor: pointer;
+  outline: revert;
+}
+
+/*-----------Estilização do texto----------*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+.Titulo {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-family: 'Monda-Bold', sans-serif;
+  color: #3b7d8c;
+}
+
+.Treino {
+  font-size: 50px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.Dieta {
+  font-size: 20px;
+  margin-left: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #95b7be;
+}
+
+.Dieta button a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.Ficha {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  height: 100%;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input1 {
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 2px solid;
+  width: 1500px;
+  font-family: 'Monda-Regular', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #193b59;
+}
+
+.submit1{
+  margin-top: 25px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  font-size: 35px;
+  border: none;
+  cursor: pointer;
+}

@@ -38,6 +38,7 @@ body {
     display: flex;
     margin: 0px;
     height: 100%;
+    background-color: #f2f2f2;
 }
 /*-----------Correção da margem e demais definições do Header proposto----------*/
 header {
