@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'Jost-Light';
+  src: url('../docs/fonts/Jost-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jostregular';
+  src: url('../docs/fonts/jostregular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'jostregularss';
+  src: url('../docs/fonts/jostregularss.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Monda-Bold';
+  src: url('../docs/fonts/Monda-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Monda-Regular';
+  src: url('../docs/fonts/Monda-Regular.ttf') format('truetype');
+}
+
+/*-----------Definição do escopo, para a utilização de porcentagens----------*/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*-----------display das paginas----------*/
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/*-----------Definição do escopo da Tag body----------*/
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  height: 100%;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*-----------Correção da margem e demais definições do Header proposto----------*/
+header {
+  display: flex;
+  background: #92b0bb;
+  height: 100%;
+  width: 5%;
+}
+
+/*-----------Definição das posições dos botões principais da aplicação----------*/
+header .DivBotoes ul li img {
+  height: 50px;
+  margin: 20px;
+  margin-left: -30%;
+}
+
+/*-----------Definição do botão de "sair"----------*/
+header .DivBotoes .sair li {
+  margin-top: 300px;
+  position: fixed;
+}
+
+/*-----------Remoção da estilização padrão do CSS/HTML----------*/
+.DivBotoes ul {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/*-----------Estilização dos botões da aplicação----------*/
+button {
+  all: unset;
+  cursor: pointer;
+  outline: revert;
+}
+
+
+
+
+
+/*tarefas*/
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  width: 100%;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+/*titulo da pagina*/
+.Title {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-family: 'Monda-Bold', sans-serif;
+  color: #3b7d8c;
+}
+
+.tarefTag {
+  font-size: 60px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+/*formwrapper para a caixa de registro e o botão basicamente*/
+.tarefLista{
+  display: flex;
+  justify-content: first baseline;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.row{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+/*caixa de entrada e botão de adicionar, que são um só elemento */
+#input-box {
+  display: flex;
+  position: relative;
+  align-content: center;
+  z-index: index 1;
+  margin-right: 105px;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 100%;
+  border: transparent;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #193b59;
+}
+
+/*texto padrão*/
+input, input::placeholder {
+  font: 30px sans-serif; 
+  color: #95b7be;
+  opacity: 0.85;
+  padding-bottom: 5px;
+  padding-left: 40px;
+}
+
+/*botão de adicionar tarefas*/
+.addBtn {
+  color: #193b59;
+  position: fixed;
+  z-index: index 2;
+  margin-right: 600px;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-left: 100px;
+  outline: none;
+}
+
+/*tarefas adicionadas*/
+#list-container > li{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 80px;
+  border-bottom: 1px solid #193b59;
+  color: #193b59;
+  margin-right: 105px;
+  margin-left: 60px;
+  z-index: index 3;
+  list-style: none;
+  font-size: 40px;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#list-container > li{
+  margin-top: 35px;
+}
+
+/*caixa não selecionada*/
+#list-container > li:hover{
+  background-image: url(../../docs/img-eixo2/uncheked.png);
+  background-position: relative;
+  margin-top: 35px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/*caixa selecionada*/
+ul li.checked{
+  background-image: url(../../docs/img-eixo2/checked.png);
+  background-position: relative;
+  background-repeat: no-repeat;
+  margin-top: 35px;
+}
+
+/*botão para remover as tarefas*/
+ul li span {
+  position: relative;
+  left: 100px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  color: #193b59;
+  line-height: 40px;
+  text-align: center;
+}
+ul li span:hover{
+  cursor: pointer;
+  background: #95b7be;
+  background-position: relative;
+  border: 1px solid #193b59;
+}
+
