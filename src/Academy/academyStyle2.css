@@ -2,113 +2,175 @@
     padding: 0;
     margin: 0;
 }
-@media screen and (min-width: 1900px) {
-    /*-----------Definição do escopo, para a utilização de porcentagens----------*/
-    html{
-        height: 100%;
-        width: 100%;
-    }
-    /*-----------Definição do escopo da Tag body----------*/
-    body {
-        display: flex;
-        margin: 0px;
-        height: 100%;
-        background-color: #3b7d8c;;
-    }
-    /*-----------Correção da margem e demais definições do Header proposto----------*/
-    header {
-        background: #92b0bb;
-        height: 100%;
-        width: 5%;
-    }
-    /*-----------Definição das posições dos botões principais da aplicação----------*/
-    header .DivBotoes ul li img{
-        height: 50px;
-        margin: 20px;
-    }
-    /*-----------Definição do botão de "sair"----------*/
-    header .DivBotoes .sair li{
-        margin-top: 300px;
-        position: fixed;
-    }
-    /*-----------Remoção da estilização padrão do CSS/HTML----------*/
-    .DivBotoes ul {
-        list-style-type: none;
-        text-decoration: none;
-    }
-    /*-----------Estilização dos botões da aplicação----------*/
-    button {
-        all: unset;
-        cursor: pointer;
-        outline: revert;
-    }
-    
-    main {
-        width: 100%;
-    }
+/*-----------Definição do escopo, para a utilização de porcentagens----------*/
+html{
+    height: 100%;
+    width: 100%;
+}
+/*-----------Definição do escopo da Tag body----------*/
+body {
+    display: flex;
+    margin: 0px;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+/*-----------Correção da margem e demais definições do Header proposto----------*/
+header {
+    background: #92b0bb;
+    height: 100%;
+    width: 5%;
+}
+/*-----------Definição das posições dos botões principais da aplicação----------*/
+header .DivBotoes ul li img{
+    height: 50px;
+    margin: 20px;
+}
+/*-----------Definição do botão de "sair"----------*/
+header .DivBotoes .sair li{
+    margin-top: 300px;
+}
+/*-----------Remoção da estilização padrão do CSS/HTML----------*/
+.DivBotoes ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+/*-----------Estilização dos botões da aplicação----------*/
+button {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+}
 
-    .btns {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        margin-top: 50px;
-    }
-    .abasBtnExec {
-        height: 45px;
-    }
-    
-    .abasBtnDiet {
-        height: 45px;
-    }
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.abasBtnExec {
+    height: 45px;
+}
 
-    .activeTabBtn {
-        font-size: 200%;
-        cursor: default;
-        border-bottom:  solid black 2px;
-    }
+.abasBtnDiet {
+    height: 45px;
+}
 
-    .desactiveTabBtn {
-        position: relative;
-        top: 20px;
-        font-size: 100%;
-    }
+.activeTabBtn {
+    font-size: 200%;
+    cursor: default;
+    font-family: 'Monda-Bold', sans-serif;
+    color: #3b7d8c;
+}
 
-    .exerciciosShow {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        margin-top: 50px; 
-    }
+.activeTabBtn::after {
+    display: block;
+    position: relative;
+    content: "";
+    background-color: black;
+    height: 3px;
+    animation-name: borda;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
 
-    .exerciciosHidden {
-        display: none;
-    }
+.desactiveTabBtn {
+    position: relative;
+    top: 20px;
+    font-size: 100%;
+}
 
+.desactiveTabBtn::after {
+    display: block;
+    content: "";
+    background-color: black;
+    width: 0%;
+    height: 0px;
+    transition: height 0.1s ease-in-out;
+}
+
+.desactiveTabBtn:hover::after {
+    width: 100%;
+    height: 2px;
+
+}
+
+.exerciciosShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px; 
+}
+
+.exerciciosHidden {
+    display: none;
+}
+
+.videos {
+    width: 90%;
+    height: 625px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.videos ul li {
+    display: inline;
+    margin: 5px 10px 0px 0px;
+    list-style-type: none;
+}
+
+.dietasShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.dietasHidden {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
     .videos {
-        width: 90%;
-        height: 625px;
         overflow: hidden;
         overflow-y: scroll;
         overflow-x: hidden;
     }
 
-    .videos ul li {
-        display: inline;
-        margin: 5px 10px 0px 0px;
-        list-style-type: none;
-    }
-
-    .dietasShow {
+    .videos ul {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
-        margin-top: 50px;
+        flex-wrap: wrap;
+        
     }
 
-    .dietasHidden {
-        display: none;
+    .navbar {
+        width: 10%;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .navbar {
+        width: 20%;
+    }
+
+    iframe {
+        width: 200px
+    }
+}
+
+@keyframes borda {
+    0% {
+        height: 0px;
+    }
+
+    100% {
+        height: 3px;
+    }
+  }
