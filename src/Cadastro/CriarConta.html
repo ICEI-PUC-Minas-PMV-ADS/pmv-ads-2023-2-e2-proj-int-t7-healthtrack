@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealtTrack</title>
+    <meta name="author" content="Caique Magalhães">
+    
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include your custom CSS -->
+    <link rel="stylesheet" href="mystyleCriar.css">
+</head>
+<body>
+    <div class="containe fluid align-items-center justify-content-start" style="background-image: url(./Imagens/background2.jpg); background-size: cover; width: 100vw; height: 100vh; padding: 10px 100px;">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="left-box p-4">
+                    <img src="./Imagens/Ativo 10.png" alt="imagem" class="img-fluid">
+                    
+                    <form action="cadastro.php" method="post">
+                        <div class="form-group">
+                            <label for="usuario" class="login">Usuário</label>
+                            <input type="text" name="usuario" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="login">Email</label>
+                            <input type="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmEmail" class="login">Confirmar Email</label>
+                            <input type="email" name="confirmEmail" class="form-control" required>
+                    </div>
+                        <div class="form-group">
+                            <label for="password" class="login">Senha</label>
+                            <input type="password" name="senha" class="form-control" required>
+                        </div>
+                        
+                        
+                    <div class="form-group">
+                            <label for="confirmPassword" class="login">Confirmar Senha</label>
+                            <input type="password" name="confirmSenha" class="form-control" required>
+                        
+                       
+                    </div>
+                        <div class="text-center">
+                            
+                           
+                    <button class="btn button-81" type="submit">Cadastrar</button>
+                        </div>
+                    
+                    </form>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

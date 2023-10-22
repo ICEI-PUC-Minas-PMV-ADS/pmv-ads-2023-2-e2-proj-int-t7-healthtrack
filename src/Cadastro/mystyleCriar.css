@@ -4,7 +4,7 @@ body{
 }
 
 .Containerright{
-    background-image: url(../../docs/img-eixo2/background2.jpg);
+    background-image: url(./Imagens/background2.jpg);
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -21,7 +21,7 @@ body{
 
 .left-box{
     width: 30vw;
-    height: 550px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .left-box img{
-    width: 90%;
+    width: 80%;
 }
 .imagem{
     display: block;
@@ -128,7 +128,7 @@ body{
 /* ------ Responsividades ------*/
 @media only screen and (max-width: 960px){
     .Containerright{
-        background-image: url(../../docs/img-eixo2/background.jpg);
+        background-image: url(./Imagens/background.jpg);
         background-size: cover;
         width: 100vw;
         height: 100vh;
@@ -152,7 +152,7 @@ body{
 }
 @media only screen and (max-width: 600px){
     .Containerright{
-        background-image: url(../../docs/img-eixo2/background.jpg);
+        background-image: url(./Imagens/background.jpg);
         background-size: cover;
         width: 100vw;
         height: 100vh;
