@@ -1,6 +1,11 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Cada dia que passa, a informação tem se tornado o ativo mais importante na vida de pessoas e das organizações. Informações precisas, imparciais e obtidas no momento exato são fundamentais para se orientar nesse mundo de grandes incertezas. 
+
+Em paralelo, tem-se observado um movimento em todo o mundo de resgate do nacionalismo e isso tem acirrado as discussões entre correntes de pensamento antagônicos. Diversos movimentos radicais têm surgido em diferentes regiões do mundo e, de maneira cada vez mais frequente, têm se utilizado dos canais de informação através de notícias falsas para arrebanhar novos simpatizantes. Ao mesmo tempo, alguns meios de comunicação menos confiáveis, acabam adotando um editorial que limita o perfil de notícias apresentado, comprometendo o universo de informação visualizado por seus usuários. Isto é muito prejudicial para a democracia e a liberdade. Ainda, nas redes sociais, as escolhas dos algoritmos de inteligência artificial têm criado uma restrição no tipo de informação que é apresentada aos usuários, conforme discutido por Bakshy et. al (2015).
+
+Diante disso, torna-se fundamental que existam canais informação e mecanismos que permitam ao usuário acessar um conteúdo diverso e sem vieses que limitem a sua condição de se informar de maneira adequada diante dos fatos que acontecem no mundo.
+
 
 ## Problema
 Conforme exposto, o problema que se busca resolver com este projeto é a limitação que os canais tradicionais de informação têm criado para os usuários que buscam se informar sobre os diversos assuntos do seu cotidiano, com confiabilidade, agilidade e imparcialidade.
