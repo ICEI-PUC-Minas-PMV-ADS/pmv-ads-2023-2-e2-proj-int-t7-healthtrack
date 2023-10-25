@@ -88,8 +88,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos não Funcionais
 
 |ID     |                                  Descrição do Requisito                                                  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);  | Alta | 
+|-------|---------------------------------------------------------------------------------------------------------------|------|
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);  | Alta |
 |RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada                        | Alte |
 |RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade                             | Média |
 |RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  | Alta |
@@ -106,7 +106,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
