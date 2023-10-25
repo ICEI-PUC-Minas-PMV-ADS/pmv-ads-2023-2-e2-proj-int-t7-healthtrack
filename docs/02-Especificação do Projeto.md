@@ -7,52 +7,26 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 Requisitos Funcionais
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
-RF-01
-O site deve apresentar na página principal notícias dinâmicas obtidas por meio de canais de notícias da Internet (API)
-Alta
-RF-02
-O site deve apresentar, para cada notícia, uma imagem correspondente ao assunto apresentado (thumbnail)
-Média
-RF-03
-O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação
-Média
-RF-04
-O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources).
-Média
-RF-05
-O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa.7,5
-Alta
-RF-06
-O site deve permitir visualizar as informações de contatos do mantenedor do site
-Média
-RF-07
-O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais
-Baixa
-RF-08
-O site deve permitir salvar notícias preferidas
-Baixa
-RF-09
-O site deve permitir verificar as notícias salvas como preferidas
-Baixa
-RF-10
-O site deve permitir que usuários possam comentar notícias
-Baixa
-RF-11
-O site deve exibir os comentários registrados juntamente com a notícia exibida
-Baixa
+RF-01 | O site deve apresentar na página principal notícias dinâmicas obtidas por meio de canais de notícias da Internet (API) | Alta |
+RF-02 | O site deve apresentar, para cada notícia, uma imagem correspondente ao assunto apresentado (thumbnail) | Média |
+RF-03 | O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação | Média |
+RF-04 | O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources) | Média |
+RF-05 | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa.7,5 | Alta |
+RF-06 | O site deve permitir visualizar as informações de contatos do mantenedor do site | Média |
+RF-07 | O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais | Baixa |
+RF-08 | O site deve permitir salvar notícias preferidas | Baixa |
+RF-09 | O site deve permitir verificar as notícias salvas como preferidas | Baixa |
+RF-10 | O site deve permitir que usuários possam comentar notícias | Baixa |
+RF-11 | O site deve exibir os comentários registrados juntamente com a notícia exibida | Baixa |
 
 
 Requisitos não funcionais
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
-RNF-01
-O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); ####Alta
-RNF-02
-O site deverá ser responsivo permitindo a visualização em um celular de forma adequada; ####Alta
-RNF-03
-O site deve ter bom nível de contraste entre os elementos da tela em conformidade; ####Média
-RNF-04
-O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge); ####Alta
+RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | Alta |
+RNF-02 | O site deverá ser responsivo permitindo a visualização em um celular de forma adequada | Alta |
+RNF-03 | O site deve ter bom nível de contraste entre os elementos da tela em conformidade | Média |
+RNF-04 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | Alta |
 
 Restrições
 As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
@@ -97,8 +71,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
+|ID    |                                                                    Descrição do Requisito                                                                | Prioridade |
+|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
 |RF-001| Permitir que o usuário cadastre tarefas                                                                                                                       | Alta | 
 |RF-002| Emitir um relatório de tarefas no mês                                                                                                                         | Média |
 |RF-003| O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação                                                    | Média | 
@@ -113,7 +87,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     |                                  Descrição do Requisito                                                  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);  | Alta | 
 |RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada                        | Alte |
