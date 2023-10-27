@@ -1,19 +1,65 @@
-# Plano de Testes de Software
+# Plano de Teste do Website HealthTrack
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+### Introdução
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+>Este plano de testes detalha a abordagem de testes para o website HealthTrack. O objetivo deste plano é verificar se o website funciona conforme o previsto e está livre de problemas críticos.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+### Objetivos
+
+>Confirmar que o website HealthTrack é carregado corretamente.
+>Verificar a funcionalidade dos recursos essenciais.
+>Assegurar que o website HealthTrack seja visual e funcionalmente consistente nos navegadores e dispositivos mais comuns.
+
+### Escopo
+**Este plano de testes abrange o teste do website HealthTrack. Ele inclui:**
+
+>*Teste Funcional*
+>Teste em Diferentes Navegadores
+>Teste em Dispositivos Móveis
+>Ambiente de Teste
+>Navegadores: Navegadores com base em Chromium, Fire Fox.
+>Dispositivos: PC, Mobile.
+
+### Casos de Teste
+
+ **Teste Funcional**
  
-## Ferramentas de Testes (Opcional)
+>Verificar se a página inicial do website HealthTrack é carregada sem erros.
+>
+>Testar o menu de navegação do HealthTrack clicando em cada item do menu.
+>
+>Testar o formulário de contato do HealthTrack para garantir que as submissões sejam recebidas.
+>
+>Verificar a renderização correta de imagens e conteúdo multimídia no HealthTrack.
+>
+>Validar se os links externos no HealthTrack abrem em novas abas ou janelas.
+>
+>Teste em Diferentes Navegadores
+>
+>Testar o website HealthTrack nos navegadores especificados (Navegadores com base em Chromium, Fire Fox.).
+>
+>Assegurar que todos os recursos do HealthTrack funcionem conforme o esperado em cada navegador.
+>
+>Teste em Dispositivos Móveis
+>
+>Testar o website HealthTrack em dispositivos móveis especificados (listar os dispositivos aqui).
+>
+>Confirmar que a versão móvel do HealthTrack é responsiva e amigável ao usuário.
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+### Cronograma de Testes
+>Os testes para o website HealthTrack têm sido contínuos e em andamento desde o início do projeto e continuarão como parte integral do ciclo de vida do projeto.
+>Os resultados serão relatados [Especificar a frequência de relatórios].
+
+### Critérios de Aprovação
+>**Todos os defeitos críticos devem ser resolvidos e todos os casos de teste devem ser aprovados.**
+
+### Entregas dos Testes
+>Relatório de casos de teste e resultados do HealthTrack.
+>Um resumo dos problemas críticos encontrados no HealthTrack e suas resoluções.
+
+### Plano de Comunicação
+>A comunicação referente aos resultados dos testes e qualquer questão relacionada será restrita aos membros da equipe envolvidos diretamente no projeto HealthTrack.
+>Quaisquer problemas críticos encontrados durante os testes no HealthTrack serão documentados e tratados.
+
+### Dependências
+>Disponibilidade dos dispositivos e navegadores necessários para os testes.
