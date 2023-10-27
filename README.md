@@ -18,15 +18,16 @@ Nossa aplicação tem o intuito de auxiliar no dia a dia do nosso usuário para 
 
 * Bernardo Jeunon de Alencar
 
-## Instruções de utilização
+## Instruções de Utilização
+O HealthTrack é projetado para ser intuitivo e de uso fácil, não requerendo instruções detalhadas de utilização. No entanto, a seguir, fornecemos algumas informações básicas:
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+**Acesso à Aplicação**
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+Acesse o HealthTrack.
+Não é necessário nenhum login ou senha para acessar o site, pois ele é público.
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+**Suporte**
+Caso você tenha alguma dúvida ou precise de assistência, entre em contato com os contribuidores.
 
 # Documentação
 
@@ -46,7 +47,7 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* [Github Pages](https://pages.github.com/)
 
 # Armazenamento do Código-Fonte
 
