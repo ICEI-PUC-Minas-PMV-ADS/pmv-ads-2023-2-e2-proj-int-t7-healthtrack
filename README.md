@@ -6,7 +6,7 @@
 
 Nossa aplicação tem o intuito de auxiliar no dia a dia do nosso usuário para que possa fazer um acompanhamento da sua rotina, visando a saúde.
 
-## Integrantes
+### Integrantes
 
 * Caique Romero Magalhaes
 * César Pereira dos Santos Filho
@@ -14,11 +14,11 @@ Nossa aplicação tem o intuito de auxiliar no dia a dia do nosso usuário para 
 * Márcio Emanuel Batista de Pádua
 * William Ribeiro Amaral
 
-## Orientador
+### Orientador
 
 * Bernardo Jeunon de Alencar
 
-## Instruções de Utilização
+### Instruções de Utilização
 O HealthTrack é projetado para ser intuitivo e de uso fácil, não requerendo instruções detalhadas de utilização. No entanto, a seguir, fornecemos algumas informações básicas:
 
 **Acesso à Aplicação**
@@ -29,7 +29,7 @@ Não é necessário nenhum login ou senha para acessar o site, pois ele é públ
 **Suporte**
 Caso você tenha alguma dúvida ou precise de assistência, entre em contato com os contribuidores.
 
-## Documentação
+### Documentação
 
 <ol>
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
@@ -45,14 +45,14 @@ Caso você tenha alguma dúvida ou precise de assistência, entre em contato com
 <li><a href="docs/11-Referências.md"> Referências</a></li>
 </ol>
 
-## Hospedagem
+### Hospedagem
 
 * [Github Pages](https://pages.github.com/)
 
-## Armazenamento do Código-Fonte
+### Armazenamento do Código-Fonte
 
 * <a href="src/README.md">Código Fonte</a>
 
-## Armazenamento da Apresentação
+### Armazenamento da Apresentação
 
 * <a href="presentation/README.md">Apresentação da solução</a>
