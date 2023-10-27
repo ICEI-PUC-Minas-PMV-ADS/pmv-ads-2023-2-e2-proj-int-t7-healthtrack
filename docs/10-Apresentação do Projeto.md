@@ -1,29 +1,13 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+[Assistir ao Vídeo de Apresentação]
 
-<a href="../presentation/README.md"> Clique aqui para fazer os uploads dos arquivos de apresentação da solução.</a>
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/assets/108359444/d309b42f-2962-4116-8a9e-05079e35df2a
 
-# Material de Apoio sobre a Apresentação de um Produto
+O vídeo de apresentação contém uma visão abrangente da solução proposta para o projeto. Ele cobre os seguintes tópicos:
 
-## Título do Projeto
+- **Título do Projeto**: Nome e marca do projeto.
+- **Identidade Visual (Marca, Design)**: O vídeo demonstra a identidade visual, incluindo a marca, design, figuras, imagens e cores relacionadas à solução, mantendo a temática do problema.
+- **Conjunto de Slides (Estrutura)**: O vídeo apresenta a estrutura do conjunto de slides, distribuindo coerentemente o conteúdo a ser apresentado no tempo determinado. Descreve de forma clara o andamento do projeto, os insumos gerados e os requisitos atendidos.
 
-Nome e marca do projeto
-
-## Identidade Visual (Marca, Design)
-
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
-
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
-
-## Conjunto de Slides (Estrutura)
-
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
+Para uma experiência completa da apresentação, por favor, assista ao vídeo de apresentação.
