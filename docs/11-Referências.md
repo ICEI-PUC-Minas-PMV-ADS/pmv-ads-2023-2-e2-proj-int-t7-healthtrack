@@ -1,7 +1,5 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+1. [W3 SCHOOLS](https://www.w3schools.com/).
+2. [Microsoft Tutorials](https://learn.microsoft.com/).
+3. Material da Faculdade. Microfundamentos, apresentações, ou documentos fornecidos pela [**Puc Minas**].
