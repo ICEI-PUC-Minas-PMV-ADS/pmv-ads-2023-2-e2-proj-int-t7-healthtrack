@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
 ## Controle de Versão
 
@@ -39,22 +39,29 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do
+processo de desenvolvimento.
+A equipe está organizada da seguinte maneira:
+● Scrum Master: Bernardo Jeunon de Alencar
+● Product Owner: Márcio Emanuel Batista de Pádua
+● Equipe de Desenvolvimento: Davidson Marques, Willian Ribeiro, César Pereira dos Santos Filho
+● Equipe de Design: Caique Romero Magalhães
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello
+estruturado com as seguintes listas:
+● Pergunta para próxima reunião: esta lista, serve para anexar perguntas e dúvidas
+para próxima reunião..
+● A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos
+trabalhando.
+● Em Andamento: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+● Teste: Checagem de Qualidade. Quando as tarefas são concluídas, eles são
+movidos para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo
+saiu perfeito.
+● Concluído: nesta lista são colocadas as tarefas que passaram pelos testes e
+controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais
+edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 ### Ferramentas
 
@@ -70,8 +77,7 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
+> - [Google Drive](https://docs.google.com/folder/d/1xE9t6zD78VnVk)
 > - [Github](https://github.com/)
+> - [Adobe XD](https://marvelapp.com/4hd6091)
+> - [Trello](https://trello.com/b/LupglzUz/tiaw-template)
