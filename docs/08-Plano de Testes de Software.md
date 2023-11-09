@@ -63,3 +63,20 @@
 
 ### Dependências
 >Disponibilidade dos dispositivos e navegadores necessários para os testes.
+
+
+| Caso de Teste        | CT-01 - Criação de treinos e dietas |
+|-----------------------|-------------------------------------|
+| Requisitos Associados | RF-01,O site deve apresentar, na página principal, um board para cadastro de exercício físico do usuário,  RF-02 O site deve apresentar, na página principal, um board para cadastro de dieta do usuário. |
+| Objetivo do Teste     | Verificar se a ordem de inclusão dos exercícios e alimentos foram respeitadas |
+| Passos                | 1) Acessar o Navegador<br>2) Informar o endereço do Site<br>3) Fazer o Cadastro<br>4) Fazer o Log In<br>5) Visualizar a página Home |
+| Critérios de Êxito    | Os treinos e dieta devem ser apresentados na ordem correta de inclusão<br>As fontes devem estar visíveis ao usuário |
+
+| Caso de Teste        | CT-02 - Calculo da TMB e IMC        |
+|-----------------------|-------------------------------------|
+| Requisitos Associados | RF-09 - O site deve permitir Calcular o IMC,  RF-10 O site deve possibilitar o cálculo da Taxa metabólica basal do usuário       |
+| Objetivo do Teste     | Verificar se os cálculos estão corretos |
+| Passos                | 1) Acessar o Navegador<br>2) Informar o endereço do Site<br>3) Fazer o Log In<br>4) Visualizar a página Perfil |
+| Critérios de Êxito    | A página deve apresentar o resultado do cálculo corretamente |
+
+
