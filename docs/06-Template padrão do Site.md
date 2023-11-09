@@ -1,12 +1,48 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura X.
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+![Exemplo de UserFlow](img/Tamplate.jpg)
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+
+ 
+Figura X - Template padrão do site
+
+# Template do Site
+
+O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura X.
+
+Figura X - Template padrão do site
+
+O template criado está disponível no [site do GitHub](http://github.com/…..) e é composto pelos seguintes layouts:
+
+- Tela login
+- Tela de Cadastro
+- Home
+- Academy
+- Tarefa
+- Profile
+
+A responsividade segue o padrão do Display Flex.
+
+## Home
+Tela que abrange a visualização da Ficha de Treino e Dietas, onde pode adicionar conforme a necessidade do usuário final.
+
+![Exemplo de Wireframe](img-eixo2/Home_-_Dietas.png)
+
+![Exemplo de Wireframe](img-eixo2/Home_-_Ficha_de_Treinos.png)
+
+## Tela de Vídeos
+Este layout é utilizado para exibição de vídeos de treinos e dietas para auxiliar o usuário.
+![Exemplo de Wireframe](img/Exercicios.png)
+
+## Tarefas
+Local onde são feitas a Lista de afazeres diária do usuário.
+![Exemplo de Wireframe](img/Tarefas.png)
+
+## Profile
+Local onde obtém as informações do usuário, idade, peso e altura. Além de fornecer o cálculo da Taxa metabólica basal e IMC.
+![Exemplo de Wireframe](img/Perfil.png)
+
+
+
