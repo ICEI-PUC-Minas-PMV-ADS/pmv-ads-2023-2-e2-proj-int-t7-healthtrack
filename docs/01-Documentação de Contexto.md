@@ -1,14 +1,12 @@
 # Introdução
 
-Cada dia que passa, a informação tem se tornado o ativo mais importante na vida de pessoas e das organizações. Informações precisas, imparciais e obtidas no momento exato são fundamentais para se orientar nesse mundo de grandes incertezas. 
+Nos últimos anos, tem havido um aumento significativo no número de pessoas que estudam e trabalham em casa. Esse estilo de vida pode ser benéfico em muitos aspectos, mas também pode levar a uma falta de atividade física e a hábitos alimentares ruins, o que pode ter consequências negativas para a saúde.
+Para ajudar essas pessoas a manter um estilo de vida saudável, será desenvolvido um site de acompanhamento de exercícios físicos e dietas. O site tem como objetivo fornecer um ambiente digital onde as pessoas possam encontrar informações e recursos úteis para melhorar sua saúde física e mental.
 
-Em paralelo, tem-se observado um movimento em todo o mundo de resgate do nacionalismo e isso tem acirrado as discussões entre correntes de pensamento antagônicos. Diversos movimentos radicais têm surgido em diferentes regiões do mundo e, de maneira cada vez mais frequente, têm se utilizado dos canais de informação através de notícias falsas para arrebanhar novos simpatizantes. Ao mesmo tempo, alguns meios de comunicação menos confiáveis, acabam adotando um editorial que limita o perfil de notícias apresentado, comprometendo o universo de informação visualizado por seus usuários. Isto é muito prejudicial para a democracia e a liberdade. Ainda, nas redes sociais, as escolhas dos algoritmos de inteligência artificial têm criado uma restrição no tipo de informação que é apresentada aos usuários, conforme discutido por Bakshy et. al (2015).
-
-Diante disso, torna-se fundamental que existam canais informação e mecanismos que permitam ao usuário acessar um conteúdo diverso e sem vieses que limitem a sua condição de se informar de maneira adequada diante dos fatos que acontecem no mundo.
 
 
 ## Problema
-Conforme exposto, o problema que se busca resolver com este projeto é a limitação que os canais tradicionais de informação têm criado para os usuários que buscam se informar sobre os diversos assuntos do seu cotidiano, com confiabilidade, agilidade e imparcialidade.
+Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade em seguir uma rotina mais ativa, com atividades físicas frequentes e uma alimentação mais saudável, dando ao usuário a capacidade de seguir seus treinos e acompanhar sua alimentação em um único lugar, aumentando assim seu bem-estar e sua qualidade de vida.
 
 
 > **Links Úteis**:
@@ -18,12 +16,19 @@ Conforme exposto, o problema que se busca resolver com este projeto é a limita�
 
 ## Objetivos
 
-O objetivo geral deste trabalho é a criação de um portal de notícias que apresente ferramentas de fácil uso e que permita o acesso a um universo variado e isento de notícias e informações sobre fatos em diversas áreas.
+O objetivo principal do site é fornecer uma plataforma para que os usuários possam monitorar seus exercícios físicos e dieta. Para isso, o site irá permitir que os usuários criem perfis, nos quais possam inserir informações sobre suas atividades físicas e hábitos alimentares. O site também irá fornecer recursos educativos sobre nutrição e exercício físico.
+
+O site será destinado a estudantes e profissionais que trabalham em casa, e que desejam manter um estilo de vida saudável. Será especialmente útil para pessoas que têm pouco tempo livre e que desejam encontrar maneiras eficientes de se exercitar e comer bem.
 
 Como objetivos específicos, podemos ressaltar:
-Fornecer funcionalidades que permitam interagir com as notícias apresentadas por meio de comentários e pelo compartilhamento das notícias em redes sociais;
-Integrar com centrais de notícias espalhadas na Internet.
-Permitir a criação de canais personalizados por usuário com tópicos de interesse individual.
+> - Cadastro de usuários: os usuários poderão criar uma conta para acessar o site.
+> - Criação de perfis: os usuários poderão criar um perfil para inserir informações sobre seus exercícios físicos e hábitos alimentares.
+> - Monitoramento de atividades físicas: os usuários poderão monitorar seus exercícios físicos, inserindo informações sobre o tipo de exercício, duração e intensidade.
+> - Análise da taxa metabólica basal (média) do usuário: os usuários poderão medir sua taxa metabólica basal com base em algumas informações do mesmo na criação do seu perfil.
+> - Monitoramento de dieta: os usuários poderão monitorar sua dieta, inserindo informações sobre o tipo de alimento consumido, as quantidades e as calorias daquele alimento.
+
+Recursos educativos: o site terá uma seção de recursos educativos, onde os usuários poderão encontrar informações sobre nutrição e exercício físico em vídeos públicos com profissionais de cada uma das áreas abordadas.
+
 
 
 ## Justificativa
