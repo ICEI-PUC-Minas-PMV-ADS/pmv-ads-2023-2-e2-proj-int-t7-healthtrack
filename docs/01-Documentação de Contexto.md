@@ -9,11 +9,6 @@ Para ajudar essas pessoas a manter um estilo de vida saudável, será desenvolvi
 Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade em seguir uma rotina mais ativa, com atividades físicas frequentes e uma alimentação mais saudável, dando ao usuário a capacidade de seguir seus treinos e acompanhar sua alimentação em um único lugar, aumentando assim seu bem-estar e sua qualidade de vida.
 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 O objetivo principal do site é fornecer uma plataforma para que os usuários possam monitorar seus exercícios físicos e dieta. Para isso, o site irá permitir que os usuários criem perfis, nos quais possam inserir informações sobre suas atividades físicas e hábitos alimentares. O site também irá fornecer recursos educativos sobre nutrição e exercício físico.
@@ -27,23 +22,22 @@ Como objetivos específicos, podemos ressaltar:
 > - Análise da taxa metabólica basal (média) do usuário: os usuários poderão medir sua taxa metabólica basal com base em algumas informações do mesmo na criação do seu perfil.
 > - Monitoramento de dieta: os usuários poderão monitorar sua dieta, inserindo informações sobre o tipo de alimento consumido, as quantidades e as calorias daquele alimento.
 
-Recursos educativos: o site terá uma seção de recursos educativos, onde os usuários poderão encontrar informações sobre nutrição e exercício físico em vídeos públicos com profissionais de cada uma das áreas abordadas.
+> - Recursos educativos: o site terá uma seção de recursos educativos, onde os usuários poderão encontrar informações sobre nutrição e exercício físico em vídeos públicos com profissionais de cada uma das áreas abordadas.
 
 
 
 ## Justificativa
 
-Em estudo da Reuters, realizado com um grupo de 74 mil pessoas, em 37 países diferentes, fica claro o volume preocupante de informações falsas sendo propagadas  (NEWMAN et al; 2019). O estudo apresenta que no brasil 35% dos entrevistados informam que as informações consumidas são completamente inventadas. 
+Um estudo publicado pela revista científica BMC Public Health, em 2023, analisou os hábitos de trabalho remoto durante a pandemia de COVID-19 e descobriu que, em média, os trabalhadores remotos apresentaram uma redução significativa na atividade física diária e um aumento no tempo sentado.
 
-Adicionalmente, há uma falta de canais de notícias isentos e objetivos que permitam aos usuários, leitores frequentes de jornais, possam ter a mesmo experiência dos jornais tradicionais em ferramentas digitais. 
+O estudo mostra que os trabalhadores remotos apresentaram uma redução significativa na atividade física diária e um aumento no tempo sentado, o que pode levar a problemas de saúde a longo prazo, como obesidade, diabetes e doenças cardíacas. Além disso, a pandemia de COVID-19 aumentou a adoção do trabalho remoto em todo o mundo, o que torna ainda mais importante fornecer uma plataforma digital para que os usuários possam monitorar e melhorar seus hábitos alimentares e atividades físicas.
+
+Com base nesses resultados, o site de acompanhamento de exercícios físicos e dietas pode ser uma solução eficaz para ajudar as pessoas que estudam e trabalham em casa a manterem um estilo de vida saudável, monitorando seus níveis de atividade física e dieta e fornecendo orientações personalizadas para melhorar sua saúde e bem-estar. Portanto, o estudo justifica a necessidade de um site que ofereça suporte a essas pessoas para manter um estilo de vida saudável enquanto estudam e trabalham em casa.
+
 
 ## Público-Alvo
 
-Embora todas as pessoas possam se beneficiar de soluções isentas para se informarem, o foco deste trabalho está no público que tem o hábito de ler notícias nos contextos das suas áreas de atuação com o intuito de ampliarem sua condição de atuarem profissionalmente.
-
-Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 30 e 45 anos que se encontram em oportunidades de trabalho que exigem constante atualização e que fazem uso frequente de computadores e dispositivos móveis para se atualizarem com tópicos que vão além dos assuntos relacionados às suas atividades profissionais.
+O público-alvo do projeto são pessoas que trabalham ou estudam no estilo remoto, que desejam manter um estilo de vida saudável, monitorando seus níveis de atividade física e dieta e recebendo orientações personalizadas para melhorar sua saúde e bem-estar. Embora o projeto seja direcionado a esse público específico, o site de acompanhamento de exercícios físicos e dieta pode ser utilizado por qualquer pessoa que queira adotar hábitos saudáveis e melhorar sua qualidade de vida.
 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> - [Personas](https://docs.google.com/document/d/1Hppr9ElPxQbIKu-M_tnEWjbKQpyG1Crs_1I7YrOVtw4/edit#heading=h.17dp8vu)
+> - [Documentação]((https://docs.google.com/document/d/13t5Jpu5uFpq88sRFbdP2VraX3zgMxOw3Gr2gSIbO9pQ/edit?usp=sharing)https://docs.google.com/document/d/13t5Jpu5uFpq88sRFbdP2VraX3zgMxOw3Gr2gSIbO9pQ/edit?usp=sharing)
