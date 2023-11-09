@@ -5,7 +5,7 @@
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
-Elaborada com o objetivo de armonizar com a tela do usuario, buscando trazer uma interface agradavél com a cores e trazer uma sensação de dominancia sobre a aplicação com o layout
+Elaborada com o objetivo de armonizar com a tela do usuario, buscando trazer uma interface agradavél com a cores e passar uma sensação de dominancia sobre a aplicação com o layout
 intuitivo.
 
 ## User Flow
