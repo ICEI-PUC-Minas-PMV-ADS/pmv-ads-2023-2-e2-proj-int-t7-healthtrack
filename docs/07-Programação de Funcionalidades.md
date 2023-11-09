@@ -1,15 +1,45 @@
-# Programação de Funcionalidades
+# Funcionalidades do Sistema (Telas)
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção, são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+## Criação de Ficha de Exercícios e Dietas (RF-01 e RF-02)
+A tela principal do sistema apresenta dois boards com a função de criar sua ficha de treino e montar sua dieta.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+![Exemplo de Wireframe](img-eixo2/Home_-_Dietas.png)
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+![Exemplo de Wireframe](img-eixo2/Home_-_Ficha_de_Treinos.png)
+
+
+### Requisitos atendidos
+- RF-01: O site deve apresentar, na página principal, um board para cadastro de exercício físico do usuário.
+- RF-02: O site deve apresentar, na página principal, um board para cadastro de dieta do usuário.
+
+### Artefatos da funcionalidade
+- homepage.html
+- homepageScript.js
+- homepageStyle.css
+
+## Tela de Vídeos (RF-07)
+
+![Exemplo de Wireframe](img/Exercicios.png)
+![Exemplo de Wireframe](img-eixo2/Dietas.png)
+
+
+A tela de Academy permite ao usuário assistir vídeos sobre treinos e dietas.
+
+### Artefatos da Funcionalidade
+- Academy.html
+- academyScript.js
+- academyStyle.css
+
+### Estrutura de Dados
+```json
+{
+	"Treinos": [
+		{
+			"id": 1,
+			"Exercício": "50 min - Esteira"
+		}
+	]
+}
+
