@@ -40,4 +40,4 @@ Com base nesses resultados, o site de acompanhamento de exercícios físicos e d
 O público-alvo do projeto são pessoas que trabalham ou estudam no estilo remoto, que desejam manter um estilo de vida saudável, monitorando seus níveis de atividade física e dieta e recebendo orientações personalizadas para melhorar sua saúde e bem-estar. Embora o projeto seja direcionado a esse público específico, o site de acompanhamento de exercícios físicos e dieta pode ser utilizado por qualquer pessoa que queira adotar hábitos saudáveis e melhorar sua qualidade de vida.
 
 
-> - [Documentação]((https://docs.google.com/document/d/13t5Jpu5uFpq88sRFbdP2VraX3zgMxOw3Gr2gSIbO9pQ/edit?usp=sharing)https://docs.google.com/document/d/13t5Jpu5uFpq88sRFbdP2VraX3zgMxOw3Gr2gSIbO9pQ/edit?usp=sharing)
+> - [Especificações do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)
