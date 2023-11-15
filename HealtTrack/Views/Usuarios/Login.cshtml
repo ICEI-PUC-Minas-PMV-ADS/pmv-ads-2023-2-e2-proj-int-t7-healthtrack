@@ -1,0 +1,197 @@
+﻿@model HealtTrack.Models.Usuario
+
+@{
+    ViewData["None"] = "Login";
+    
+}
+
+
+
+
+<style>
+    .nav-bar {
+        display: none;
+    }
+    
+    /* ------ Corpo da pagina ------*/
+    body {
+        margin: 0;
+    }
+
+    /* ------ Layout lado Esquerdo ------*/
+    .Containerleft {
+        background-image: url(../images/backgound1.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-width {
+        width: 56vw;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    /* ------ Layout lado Direito ------*/
+
+    .right-box {
+        width: 30vw;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+        padding: 30px 35px;
+        background: rgb(120, 168, 185);
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+
+        .right-box img {
+            width: 90%;
+        }
+
+    .imagem {
+        display: block;
+        margin: auto;
+        padding: 0px;
+    }
+
+    /* ------ Referencias dos Links ------*/
+    .textfild {
+        width: 100%;
+        display: flex;
+        text-align: start;
+        flex-direction: column;
+        color: white;
+    }
+
+        .textfild .login {
+            display: block;
+            width: 100%;
+            padding: 5px;
+            font-size: 20px;
+            justify-content: start;
+        }
+
+    .lembrar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgba(37, 83, 107, 1);
+    }
+
+        .lembrar label {
+            margin-right: auto;
+        }
+
+        .lembrar a {
+            color: rgba(37, 83, 107, 1);
+            margin-left: auto;
+        }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+    }
+
+    .button-81 {
+        background-color: #fff;
+        border: 0 solid #e2e8f0;
+        border-radius: 1.5rem;
+        box-sizing: border-box;
+        color: rgba(37, 83, 107, 1);
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 1;
+        padding: 1rem 1.6rem;
+        text-align: center;
+        text-decoration: none #0d172a solid;
+        text-decoration-thickness: auto;
+        transition: all .1s cubic-bezier(.4, 0, .2, 1);
+        box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 200px;
+    }
+
+        .button-81:hover {
+            background-color: rgba(37, 83, 107, 1);
+            color: #fff;
+        }
+
+</style>
+<body class="containe fluid align-items-center justify-content-start" style="background-image: url(../images/background1.jpg); background-size: cover; padding-top: 100px">
+
+    <form asp-action="Login">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="Containerleft">
+        <div class="left-width">
+        </div>
+        <div class="right-width">
+            <div class="right-box">
+                <img src="../images/Ativo 10.png" alt="imagem" class="imagem">
+                
+                    <div class="textfild">
+                        <div class="form-group">
+                        <label for="usuario" class="login" asp-for="Email" class="control-label">Usuario / Email</label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        
+
+
+                    </div>
+                    <div class="textfild">
+                        <div class="form-group">
+                        <label for="password" class="login" asp-for="Senha" class="control-label">Senha</label>
+                        <input asp-for="Senha" class="form-control" />                 
+                        <span asp-validation-for="Senha" class="text-danger"></span>
+                    </div>
+                    </div>
+
+
+
+                </form>
+                <div class="lembrar">
+                    <input type="checkbox">Lembrar</input>
+                    <a href="EsqueceuSenha.html">Esqueceu a Senha?</a>
+                </div>
+                <div class="form-group">
+        <input type="submit" value="Entrar" class="button-81"/>
+                </div>
+                <div class="criar">
+                    <a href="/Usuarios/Create">Criar uma conta</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+    <script>
+        $(document).ready(function () {
+            $("#nav-bar").hide();
+        });
+
+      
+    </script>
+}
+
+
+
