@@ -51,8 +51,7 @@ Caso você tenha alguma dúvida ou precise de assistência, entre em contato com
 
 ### Armazenamento do Código-Fonte
 
-* <a href="pmv-ads-2023-2-e2-proj-int-t7-healthtrack
-/HealtTrack">Código Fonte</a>
+* <a href="main/HealtTrack">Código Fonte</a>
 
 ### Armazenamento da Apresentação
 
