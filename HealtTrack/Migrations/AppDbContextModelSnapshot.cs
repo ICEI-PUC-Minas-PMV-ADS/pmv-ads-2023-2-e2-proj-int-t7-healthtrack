@@ -65,6 +65,19 @@ namespace HealtTrack.Migrations
 
                     b.ToTable("Usuarios");
                 });
+
+            modelBuilder.Entity("HealtTrack.Models.Videos", b =>
+                {
+                    b.Property<int>("MyProperty")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MyProperty"), 1L, 1);
+
+                    b.HasKey("MyProperty");
+
+                    b.ToTable("Videos");
+                });
 #pragma warning restore 612, 618
         }
     }

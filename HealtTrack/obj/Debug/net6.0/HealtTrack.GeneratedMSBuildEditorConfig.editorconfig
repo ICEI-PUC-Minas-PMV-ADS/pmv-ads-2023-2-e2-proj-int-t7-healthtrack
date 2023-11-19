@@ -18,8 +18,60 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\pmv-ads-2023-2-e2-proj-int-t7-healthtrack\HealtTrack
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Dieta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Exercicio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpY2lvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/FichaDieta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFEaWV0YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/FichaDieta/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFEaWV0YVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/FichaDieta/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFEaWV0YVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/FichaDieta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFEaWV0YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/FichaTreino/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFUcmVpbm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/FichaTreino/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFUcmVpbm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/FichaTreino/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFUcmVpbm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/FichaTreino/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFUcmVpbm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Shared/Error.cshtml]
@@ -30,44 +82,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Treinos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Treinos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Treinos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Treinos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlaW5vc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Usuarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Usuarios/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Usuarios/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Usuarios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Usuarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Usuarios/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
+[C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/Todo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9kb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/caiqu/OneDrive/Área de Trabalho/Faculdade/Eixo 2/Projeto/pmv-ads-2023-2-e2-proj-int-t7-healthtrack/HealtTrack/Views/_ViewImports.cshtml]

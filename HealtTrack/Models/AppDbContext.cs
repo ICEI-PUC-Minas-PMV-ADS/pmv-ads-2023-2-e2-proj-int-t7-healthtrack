@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography.X509Certificates;
+using HealtTrack.Models;
 
 namespace HealtTrack.Models
 {
@@ -9,6 +10,7 @@ namespace HealtTrack.Models
 
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Treino> Treinos { get; set; }
+        public DbSet<HealtTrack.Models.Videos> Videos { get; set; }
 
     }
 }
