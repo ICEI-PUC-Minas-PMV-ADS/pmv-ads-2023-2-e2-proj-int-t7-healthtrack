@@ -47,7 +47,7 @@ Caso você tenha alguma dúvida ou precise de assistência, entre em contato com
 
 ### Hospedagem
 
-* [Github Pages](https://pages.github.com/)
+* [Microsoft Azure](https://healthtrack.azurewebsites.net/)
 
 ### Armazenamento do Código-Fonte
 
