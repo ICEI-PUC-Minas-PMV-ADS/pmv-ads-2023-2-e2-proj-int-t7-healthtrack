@@ -1,16 +1,24 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.Security.Cryptography.X509Certificates;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using HealtTrack.Models;
 
 namespace HealtTrack.Models
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Treino> Treinos { get; set; }
-        public DbSet<HealtTrack.Models.Videos> Videos { get; set; }
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+            : base(options) {}
+
+        public DbSet<TodoItem> TodoItems { get; set; }
+        public DbSet<ApplicationUser> Users { get; set; }
+
+        public DbSet<FichaTreino> FichasTreino { get; set; }
+        public DbSet<Exercicio> Exercicios { get; set; }
+
+        public DbSet<FichaDieta> FichasDieta { get; set; }
+        public DbSet<Dieta> Dietas { get; set; }
+
 
     }
 }

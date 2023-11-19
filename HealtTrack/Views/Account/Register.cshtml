@@ -1,0 +1,55 @@
+﻿<!-- Views/Account/Register.cshtml -->
+@model RegisterViewModel
+
+
+
+
+<link rel="stylesheet" href="~/css/Register.css" asp-append-version="true" />
+
+
+
+    <div class="row">
+        <div>
+            <div>
+                <div class="left-box p-4">
+                    <img src="../images/Ativo 10.png" alt="imagem" class="img-fluid">
+
+                    <form asp-action="Register">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Name" class="control-label"></label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Password" class="control-label"></label>
+                            <input asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label asp-for="ConfirmarSenha" class="control-label"></label>
+                            <input asp-for="ConfirmarSenha" class="form-control" />
+                            <span asp-validation-for="ConfirmarSenha" class="text-danger"></span>
+                        </div>
+                        <div class="text-center">
+
+
+                            <button class="btn button-81" value="Create" type="submit">Cadastrar</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+

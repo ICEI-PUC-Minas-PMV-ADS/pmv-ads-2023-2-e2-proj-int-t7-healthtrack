@@ -1,0 +1,37 @@
+﻿
+@model LoginViewModel
+
+
+
+<link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+<form asp-action="Login" method="post">
+    <div class="Containerleft">
+        <div class="left-width">
+        </div>
+        <div class="right-width">
+            <div class="right-box">
+                <img src="../images/Ativo 10.png" alt="imagem" class="imagem">
+                <div class="textfild">
+                    <label for="usuario" class="login" asp-for="Email" class="control-label">Usuario / Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="textfild">
+                    <label for="password" class="login" asp-for="Password" class="control-label">Senha</label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <!--<div class="lembrar">
+                    <a href="../EsqueceuSenha/EsqueceuSenha.html">Esqueceu a Senha?</a>
+                </div> -->
+                <div class="botao">
+                    <button class="button-81" role="button" type="submit">Entrar</button>
+                </div>
+                <div class="criar">
+                <a href="Account/Register">Criar uma conta</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>

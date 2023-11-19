@@ -1,0 +1,58 @@
+﻿
+@model TodoItemViewModel
+<h1 class="text-center" style="color: #3B7D8C">Tarefas</h1>
+
+<form asp-controller="Todo" asp-action="AddTodoItem" method="post">
+    <div class="form-group">
+        <label asp-for="Descricao"></label>
+        <input asp-for="Descricao" class="form-control" />
+        <span asp-validation-for="Descricao" class="text-danger"></span>
+    </div>
+    <div style="padding-top: 10px;">
+    <button type="submit" class="btn btn-success">Adicionar</button>
+    </div>
+</form>
+
+<ul style="padding-top: 10px; font-size: 20px; font-family:'Arial Rounded MT';">
+    @foreach (var item in Model.TodoItems)
+    {
+        <li>
+            <input type="checkbox" class="todo-checkbox" data-item-id="@item.Id" />
+            @item.Description
+        </li>
+    }
+</ul>
+
+<button class="btn btn-danger" onclick="deleteSelectedItems()">Deletar</button>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    function deleteSelectedItems() {
+        if (confirm('Tem certeza de que deseja excluir os itens selecionados?')) {
+            // Obter todos os checkboxes marcados
+            var checkboxes = $('.todo-checkbox:checked');
+
+            // Para cada checkbox marcado, obter o ID do item e enviar solicitação AJAX para excluir o item
+            checkboxes.each(function () {
+                var itemId = $(this).data('item-id');
+                deleteTodoItem(itemId);
+            });
+        }
+    }
+
+    function deleteTodoItem(itemId) {
+        // Enviar uma solicitação AJAX para excluir o item sem recarregar a página
+        $.ajax({
+            url: `/Todo/DeleteTodoItem/${itemId}`,
+            type: 'DELETE',
+            contentType: 'application/json',
+            success: function () {
+                // Atualizar a visualização após a exclusão
+                location.reload();
+            },
+            error: function () {
+                console.error('Falha ao excluir o item.');
+            }
+        });
+    }
+</script>

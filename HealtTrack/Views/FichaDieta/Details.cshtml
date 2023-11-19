@@ -1,0 +1,31 @@
+﻿@model HealtTrack.Models.FichaDieta
+<h1 class="text-center" style="color: #3B7D8C">Detalhes da Ficha de Treino</h1>
+
+<div>
+    <h4>FichaTreino</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+    </dl>
+</div>
+
+<p>
+    <a type="button" class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@Model.Id">Deletar</a> |
+    <a type="button" class="btn btn-outline-info" asp-action="Index">Voltar à Lista</a>
+</p>
+
+<h3>Exercícios</h3>
+<p>
+    <a type="button" class="btn btn-outline-success" asp-controller="Dieta" asp-action="Create" asp-route-fichaDietaId="@Model.Id">Adicionar Dieta</a>
+</p>
+<ul>
+    @foreach (var dieta in Model.Dietas)
+    {
+        <li>@dieta.Nome - @dieta.Descricao</li>
+    }
+</ul>

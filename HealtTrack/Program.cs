@@ -1,6 +1,6 @@
 using HealtTrack.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,9 +10,14 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
-
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
+
+
 
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
@@ -21,10 +26,11 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 });
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options =>{
+    .AddCookie(options => {
 
-        options.AccessDeniedPath = "/Usuario/AccessDenied/";
-        options.LoginPath = "/Usuarios";
+        options.AccessDeniedPath = "/Account/AccessDenied/";
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
     });
 
 
@@ -48,6 +54,14 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Usuarios}/{action=Login}/{id?}");
+    pattern: "{controller=Account}/{action=Login}/{id?}");
+
+app.UseEndpoints(endpoints =>
+{
+    // ... outras rotas
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 
 app.Run();
