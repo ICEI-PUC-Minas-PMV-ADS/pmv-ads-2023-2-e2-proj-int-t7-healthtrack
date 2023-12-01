@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\pmv-ads-2023-2-e2-proj-int-t7-healthtrack\\HealtTrack\\HealtTrack.csproj": {}
+    "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\Newhealthtrack\\HealtTrack\\HealtTrack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\pmv-ads-2023-2-e2-proj-int-t7-healthtrack\\HealtTrack\\HealtTrack.csproj": {
+    "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\Newhealthtrack\\HealtTrack\\HealtTrack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\pmv-ads-2023-2-e2-proj-int-t7-healthtrack\\HealtTrack\\HealtTrack.csproj",
+        "projectUniqueName": "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\Newhealthtrack\\HealtTrack\\HealtTrack.csproj",
         "projectName": "HealtTrack",
-        "projectPath": "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\pmv-ads-2023-2-e2-proj-int-t7-healthtrack\\HealtTrack\\HealtTrack.csproj",
+        "projectPath": "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\Newhealthtrack\\HealtTrack\\HealtTrack.csproj",
         "packagesPath": "C:\\Users\\caiqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\pmv-ads-2023-2-e2-proj-int-t7-healthtrack\\HealtTrack\\obj\\",
+        "outputPath": "C:\\Users\\caiqu\\OneDrive\\Área de Trabalho\\Faculdade\\Eixo 2\\Projeto\\Newhealthtrack\\HealtTrack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caiqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,6 +67,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.24, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [

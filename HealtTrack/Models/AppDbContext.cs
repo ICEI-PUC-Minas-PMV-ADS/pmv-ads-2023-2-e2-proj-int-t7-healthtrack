@@ -19,6 +19,7 @@ namespace HealtTrack.Models
         public DbSet<FichaDieta> FichasDieta { get; set; }
         public DbSet<Dieta> Dietas { get; set; }
 
+        
 
     }
 }
