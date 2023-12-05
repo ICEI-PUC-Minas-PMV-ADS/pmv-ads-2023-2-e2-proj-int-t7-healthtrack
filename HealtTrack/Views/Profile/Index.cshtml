@@ -1,38 +1,39 @@
 ﻿@model ProfileViewModel
 
-<h1>Perfil de Usuário</h1>
 
-<div>
-    <label for="Name">Nome:</label>
+<link rel="stylesheet" href="~/css/Perfil.css" asp-append-version="true" />
+
+<section class="Perfil">
+
+<div class="Name">
+    <label for="Name"></label>
     <span>@Model.Name</span>
 </div>
 
-<div>
-    <label for="DateOfBirth">Data de Nascimento:</label>
+<div class="nav">
+    <label for="DateOfBirth"></label>
     <span>@Model.DateOfBirth.ToShortDateString()</span>
 </div>
 
-<div>
+<div class="nav">
     <label for="Gender">Sexo:</label>
     <span>@Model.Gender</span>
 </div>
 
-<div>
+<div class="AlturaPeso">
     <label for="Height">Altura:</label>
     <span>@Model.Height.ToString("F2") cm</span>
 </div>
 
-<div>
+<div class="AlturaPeso">
     <label for="Weight">Peso:</label>
     <span>@Model.Weight.ToString("F2") kg</span>
 </div>
 
-
-
-<div>
-    <a asp-action="Edit" asp-controller="Profile" class="btn btn-primary">Editar Perfil</a>
+<div class="Botao">
+        <a asp-action="Edit" asp-controller="Profile" class="btn btn-outline-info">Editar Perfil</a>
 </div>
-<!-- Adicione outras propriedades conforme necessário -->
+</section>
 
 <div id="calculator" style="position: fixed; bottom: 10px; right: 10px; padding: 10px; border-radius: 5px;">
     <h3>Calculadora TMB</h3>
@@ -64,7 +65,7 @@
             </select>
         </div>
 
-        <button type="button" onclick="calculateTMB()">Calcular</button>
+        <button type="button" class="btn btn-outline-info"  onclick="calculateTMB()">Calcular</button>
     </form>
 
     <div>
@@ -78,19 +79,18 @@
 
 
 
-<div>
+<div class="Resultado">
     <label for="imcResult">Resultado Atual (IMC):</label>
     <span id="imcResult"></span>
 </div>
 
-<div>
+<div class="Estado">
     <label for="obesityState">Estado:</label>
     <span id="obesityState"></span>
 </div>
 
 <!-- Lista de classificações de IMC -->
 <div>
-    <h4>Classificação de IMC</h4>
     <table>
         <thead>
             <tr>
@@ -101,27 +101,27 @@
         </thead>
         <tbody>
             <tr>
-                <td>MENOR QUE 18,5</td>
+                <td>MENOR QUE 18,5: </td>
                 <td>MAGREZA</td>
                 <td>0</td>
             </tr>
             <tr>
-                <td>ENTRE 18,5 E 24,9</td>
+                <td>ENTRE 18,5 E 24,9: </td>
                 <td>NORMAL</td>
                 <td>0</td>
             </tr>
             <tr>
-                <td>ENTRE 25,0 E 29,9</td>
+                <td>ENTRE 25,0 E 29,9: </td>
                 <td>SOBREPESO</td>
                 <td>I</td>
             </tr>
             <tr>
-                <td>ENTRE 30,0 E 39,9</td>
+                <td>ENTRE 30,0 E 39,9: </td>
                 <td>OBESIDADE</td>
                 <td>II</td>
             </tr>
             <tr>
-                <td>MAIOR QUE 40,0</td>
+                <td>MAIOR QUE 40,0: </td>
                 <td>OBESIDADE GRAVE</td>
                 <td>III</td>
             </tr>
