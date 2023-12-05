@@ -14,7 +14,7 @@ Os objetivos do teste de usabilidade são:
 <h1>Metodologia</h1>
   Ao todo foi selecionado 2 participantes para os testes, eles foram apresentados o site e para usarem da forma o quão entendiam, sem aviso prévio do que se tratava. 
   Foi solicitado que os 2 participantes descrevessem como foi seu primeiro contato com a aplicação e como o site foi usado.
-  No teste de usabilidade do site de academia, os participantes navegaram intuitivamente pelas páginas, destacando uma experiência de usuário positiva. A interface limpa e bem organizada facilitou a localização de informações cruciais, como horários de aula e planos de treino. A rapidez no carregamento das páginas contribuiu para uma navegação eficiente, otimizando o tempo dos usuários. A seção de inscrição online recebeu elogios pela simplicidade do processo, tornando-o acessível a usuários de diferentes níveis de habilidade tecnológica. A integração de um chat ao vivo mostrou-se eficaz para esclarecer dúvidas imediatas. As sugestões de melhorias incluem a adição de um calendário interativo e a otimização da versão mobile para garantir uma experiência consistente em todas as plataformas. Em geral, o teste revelou que o site atende bem às necessidades dos usuários, mas pequenos ajustes podem aprimorar ainda mais a experiência.
+
 
 <h2>Treinamento</h2>
    Os usuários não receberam nenhum aviso prévio sobre como o site funciona, gostariamos que os usuários se adaptassem da forma que o site foi entregue a eles, sem saber sobre o que se trata ou o que se pode fazer. 
@@ -28,3 +28,7 @@ Solicitei que os participantes fossem escrevendo sobre o que estão achando do s
 
   <h2>PARTICIPANTE 2</h2>
   Como testador do site de academia, destaco a eficiência da navegação, proporcionando uma experiência fluida aos usuários. A busca por informações cruciais, como horários de aula e instalações, foi intuitiva e direta, facilitando a interação. O design responsivo garantiu uma adaptação adequada a diferentes dispositivos, promovendo acessibilidade. A funcionalidade de agendamento de aulas online se mostrou eficaz, simplificando o processo para os usuários. Recomendo melhorias na velocidade de carregamento de algumas páginas para garantir consistência. No geral, o site oferece uma experiência positiva, destacando-se pela praticidade e facilidade de uso, mas alguns ajustes podem aprimorar ainda mais a satisfação dos usuários.
+
+
+  <h1>VISÃO GERAL</h1>
+  No teste de usabilidade do HealthTrack, os participantes navegaram intuitivamente pelas páginas, destacando uma experiência de usuário positiva. A interface limpa e bem organizada facilitou a localização de informações cruciais, como horários de aula e planos de treino. A rapidez no carregamento das páginas contribuiu para uma navegação eficiente, otimizando o tempo dos usuários. A seção de inscrição online recebeu elogios pela simplicidade do processo, tornando-o acessível a usuários de diferentes níveis de habilidade tecnológica. A integração de um chat ao vivo mostrou-se eficaz para esclarecer dúvidas imediatas. As sugestões de melhorias incluem a adição de um calendário interativo e a otimização da versão mobile para garantir uma experiência consistente em todas as plataformas. Em geral, o teste revelou que o site atende bem às necessidades dos usuários, mas pequenos ajustes podem aprimorar ainda mais a experiência.
