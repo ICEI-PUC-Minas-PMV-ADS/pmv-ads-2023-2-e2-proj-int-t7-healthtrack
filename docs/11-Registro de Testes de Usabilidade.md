@@ -14,6 +14,7 @@ Os objetivos do teste de usabilidade são:
 <h1>Metodologia</h1>
   Ao todo foi selecionado 2 participantes para os testes, eles foram apresentados o site e para usarem da forma o quão entendiam, sem aviso prévio do que se tratava. 
   Foi solicitado que os 2 participantes descrevessem como foi seu primeiro contato com a aplicação e como o site foi usado.
+  No teste de usabilidade do site de academia, os participantes navegaram intuitivamente pelas páginas, destacando uma experiência de usuário positiva. A interface limpa e bem organizada facilitou a localização de informações cruciais, como horários de aula e planos de treino. A rapidez no carregamento das páginas contribuiu para uma navegação eficiente, otimizando o tempo dos usuários. A seção de inscrição online recebeu elogios pela simplicidade do processo, tornando-o acessível a usuários de diferentes níveis de habilidade tecnológica. A integração de um chat ao vivo mostrou-se eficaz para esclarecer dúvidas imediatas. As sugestões de melhorias incluem a adição de um calendário interativo e a otimização da versão mobile para garantir uma experiência consistente em todas as plataformas. Em geral, o teste revelou que o site atende bem às necessidades dos usuários, mas pequenos ajustes podem aprimorar ainda mais a experiência.
 
 <h2>Treinamento</h2>
    Os usuários não receberam nenhum aviso prévio sobre como o site funciona, gostariamos que os usuários se adaptassem da forma que o site foi entregue a eles, sem saber sobre o que se trata ou o que se pode fazer. 
