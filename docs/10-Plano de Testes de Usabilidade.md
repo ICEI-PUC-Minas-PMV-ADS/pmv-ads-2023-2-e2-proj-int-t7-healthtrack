@@ -1,7 +1,7 @@
 # Plano de Teste de Usabilidade do Website HealthTrack
 
-### Introdução
-Este plano de testes detalha a abordagem de testes de usabilidade para o website HealthTrack. O objetivo é avaliar a facilidade de uso, eficiência e satisfação geral do usuário ao interagir com o site.
+## Introdução
+- Este plano de testes detalha a abordagem de testes de usabilidade para o website HealthTrack. O objetivo é avaliar a facilidade de uso, eficiência e satisfação geral do usuário ao interagir com o site.
 
 ### Objetivos
 - Avaliar a navegabilidade do website HealthTrack.
