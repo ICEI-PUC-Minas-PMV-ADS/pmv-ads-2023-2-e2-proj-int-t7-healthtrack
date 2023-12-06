@@ -1,15 +1,52 @@
-# Plano de Testes de Usabilidade
+Plano de Teste de Usabilidade do Website HealthTrack
+Introdução
+Este plano de testes detalha a abordagem de testes de usabilidade para o website HealthTrack. O objetivo é avaliar a facilidade de uso, eficiência e satisfação geral do usuário ao interagir com o site.
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+Objetivos
+Avaliar a navegabilidade do website HealthTrack.
+Verificar a compreensão intuitiva dos recursos e funcionalidades.
+Identificar possíveis pontos de confusão ou fricção na interação do usuário com o site.
+Escopo
+Este plano de testes de usabilidade abrange a avaliação de:
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+Navegação e Layout
+Clareza das Instruções e Indicações
+Eficiência na Execução de Tarefas
+Resposta do Sistema às Ações do Usuário
+Metodologia de Testes
+Os testes de usabilidade serão conduzidos utilizando um grupo de usuários representativos do público-alvo do HealthTrack. Serão realizados testes de observação, entrevistas e coleta de feedback para avaliar a experiência do usuário.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+Cenários de Teste
+Navegação e Layout:
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+Tarefa: Encontrar e acessar a seção de treinos personalizados.
+Critérios de Avaliação: Tempo para encontrar, facilidade de navegação, feedback do usuário.
+Clareza das Instruções:
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Tarefa: Criar um novo treino na plataforma.
+Critérios de Avaliação: Compreensão das instruções, facilidade de execução, tempo necessário para conclusão.
+Eficiência na Execução de Tarefas:
+
+Tarefa: Calcular o IMC e a TMB usando as ferramentas fornecidas.
+Critérios de Avaliação: Tempo necessário para realizar as operações, precisão dos resultados, satisfação do usuário.
+Resposta do Sistema:
+
+Tarefa: Enviar uma mensagem através do formulário de contato.
+Critérios de Avaliação: Tempo de resposta do sistema, feedback visual, confirmação de envio.
+Critérios de Aprovação
+A maioria dos usuários deve completar as tarefas sem dificuldade significativa.
+Feedback positivo em relação à usabilidade geral do site.
+Identificação e resolução de problemas críticos de usabilidade.
+Cronograma de Testes
+Os testes de usabilidade serão conduzidos durante [especificar o período] para permitir a coleta abrangente de dados. Os resultados serão compilados e analisados no final do período de testes.
+
+Entregas dos Testes
+Relatório de Usabilidade do HealthTrack.
+Recomendações para melhorias, se necessário.
+Plano de Comunicação
+A comunicação sobre os resultados dos testes de usabilidade será compartilhada com a equipe de desenvolvimento e design do HealthTrack. As descobertas serão discutidas em [reuniões específicas].
+
+Dependências
+Disponibilidade dos usuários representativos para a realização dos testes e documentação das observações e feedback coletados.
+
+Esse é apenas um exemplo básico. Você pode adaptar e expandir conforme necessário para atender às necessidades específicas do projeto HealthTrack.
