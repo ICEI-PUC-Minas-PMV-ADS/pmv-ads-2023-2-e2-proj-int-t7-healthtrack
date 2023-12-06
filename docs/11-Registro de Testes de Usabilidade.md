@@ -26,6 +26,10 @@ Solicitei que os participantes fossem escrevendo sobre o que estão achando do s
   <h2>PARTICIPANTE 1</h2>
   Como testador do site da academia, destaco a facilidade de navegação e a clareza na apresentação das informações essenciais. Durante os testes, a interface mostrou-se intuitiva, permitindo aos usuários encontrar rapidamente horários de aulas, planos de treino e informações sobre os instrutores. A funcionalidade de inscrição online demonstrou eficiência, com um processo simples e direto. No entanto, sugiro aprimoramentos na resposta do sistema, especialmente em momentos de alto tráfego. A inclusão de recursos interativos, como vídeos de exercícios e depoimentos, poderia enriquecer a experiência do usuário. Em geral, o site revela um bom desempenho, mas algumas melhorias podem elevar ainda mais a satisfação dos usuários.
 
+  <h3>PRINTS DO PARTICIPANTE</h3>
+
+  <img href="/"></img>
+
   <h2>PARTICIPANTE 2</h2>
   Como testador do site de academia, destaco a eficiência da navegação, proporcionando uma experiência fluida aos usuários. A busca por informações cruciais, como horários de aula e instalações, foi intuitiva e direta, facilitando a interação. O design responsivo garantiu uma adaptação adequada a diferentes dispositivos, promovendo acessibilidade. A funcionalidade de agendamento de aulas online se mostrou eficaz, simplificando o processo para os usuários. Recomendo melhorias na velocidade de carregamento de algumas páginas para garantir consistência. No geral, o site oferece uma experiência positiva, destacando-se pela praticidade e facilidade de uso, mas alguns ajustes podem aprimorar ainda mais a satisfação dos usuários.
 
