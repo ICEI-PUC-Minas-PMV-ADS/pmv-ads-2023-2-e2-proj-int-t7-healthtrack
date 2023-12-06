@@ -1,6 +1,6 @@
 ﻿@model EditProfileViewModel
 
-<h1>Editar Perfil</h1>
+<h1>Dados do Perfil</h1>
 
 <form asp-action="Edit" method="post">
     @Html.AntiForgeryToken()
@@ -42,6 +42,6 @@
     <!-- Adicione outros campos conforme necessário -->
 
     <div>
-        <button type="submit">Salvar Alterações</button>
+        <button type="submit" class="btn btn-outline-info">Salvar Alterações</button>
     </div>
 </form>
