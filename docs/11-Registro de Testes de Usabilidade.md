@@ -30,7 +30,7 @@ Este documento descreve um plano de teste para conduzir um teste de usabilidade 
   ![Perfil](/img-Teste%20de%20Usabalidade/perfil.jpg)
   ![Tarefas](/img-Teste%20de%20Usabalidade/tarefas.jpg)
 
-### ARTICIPANTE 2
+### PARTICIPANTE 2
 
   Como testador do site de academia, destaco a eficiência da navegação, proporcionando uma experiência fluida aos usuários. A busca por informações cruciais, como horários de aula e instalações, foi intuitiva e direta, facilitando a interação. O design responsivo garantiu uma adaptação adequada a diferentes dispositivos, promovendo acessibilidade. A funcionalidade de criação de fichas online se mostrou eficaz, simplificando o processo para os usuários. No geral, o site oferece uma experiência positiva, destacando-se pela praticidade e facilidade de uso, mas alguns ajustes podem aprimorar ainda mais a satisfação dos usuários.
 
