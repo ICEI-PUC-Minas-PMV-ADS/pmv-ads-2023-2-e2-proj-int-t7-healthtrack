@@ -23,14 +23,14 @@ Este documento descreve um plano de teste para conduzir um teste de usabilidade 
   
 #### PRINTS DO PARTICIPANTE
 
-  ![Criar Conta](TesteDeUsabilidade/CriatConta.png)
-  ![Dieta](/img-Teste%20de%20Usabalidade/dieta.jpg)
-  ![ExecíciosDietas](/img-Teste%20de%20Usabalidade/exercicios%20dieta%20videos.jpg)
-  ![FichaDeTreino](/img-Teste%20de%20Usabalidade/ficha%20de%20treino.jpg)
-  ![Perfil](/img-Teste%20de%20Usabalidade/perfil.jpg)
-  ![Tarefas](/img-Teste%20de%20Usabalidade/tarefas.jpg)
+  ![Criar Conta](TesteDeUsabilidade/CriarConta.png)
+  ![Dieta](TesteDeUsabilidade/Dieta.png)
+  ![ExecíciosDietas](TesteDeUsabilidade/Exec.png)
+  ![FichaDeTreino](TesteDeUsabilidade/Ficha.png)
+  ![Perfil](TesteDeUsabilidade/Perfil.png)
+  ![Tarefas](TesteDeUsabilidade/Tarefas.png)
 
-### PARTICIPANTE 2
+### ARTICIPANTE 2
 
   Como testador do site de academia, destaco a eficiência da navegação, proporcionando uma experiência fluida aos usuários. A busca por informações cruciais, como horários de aula e instalações, foi intuitiva e direta, facilitando a interação. O design responsivo garantiu uma adaptação adequada a diferentes dispositivos, promovendo acessibilidade. A funcionalidade de criação de fichas online se mostrou eficaz, simplificando o processo para os usuários. No geral, o site oferece uma experiência positiva, destacando-se pela praticidade e facilidade de uso, mas alguns ajustes podem aprimorar ainda mais a satisfação dos usuários.
 
