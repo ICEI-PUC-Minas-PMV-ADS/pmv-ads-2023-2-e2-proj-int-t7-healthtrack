@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HealtTrack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e33eaf5c705188387eaed825ea4a7b58d2c909e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+561f976359a33453a9a12c142b72eb9a6a9dcc2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("HealtTrack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HealtTrack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
