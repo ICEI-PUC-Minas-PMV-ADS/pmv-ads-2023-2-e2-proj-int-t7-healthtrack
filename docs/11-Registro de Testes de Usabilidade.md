@@ -23,7 +23,7 @@ Este documento descreve um plano de teste para conduzir um teste de usabilidade 
   
 #### PRINTS DO PARTICIPANTE
 
-  ![Criar Conta](/img-TesteDeUsabilidade/CriatConta.jpg)
+  ![Criar Conta](/img-TesteDeUsabalidade/CriatConta.jpg)
   ![Dieta](/img-Teste%20de%20Usabalidade/dieta.jpg)
   ![ExecíciosDietas](/img-Teste%20de%20Usabalidade/exercicios%20dieta%20videos.jpg)
   ![FichaDeTreino](/img-Teste%20de%20Usabalidade/ficha%20de%20treino.jpg)
